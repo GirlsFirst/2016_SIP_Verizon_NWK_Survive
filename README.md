@@ -1,2 +1,4 @@
-contributors of this project: Vaishnavi Dhulkhed
+contributors of this project: 
+* Vaishnavi Dhulkhed
 * Sophia Mencia
+* Holia Oswin

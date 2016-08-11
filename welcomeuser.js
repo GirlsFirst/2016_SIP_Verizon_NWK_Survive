@@ -44,14 +44,11 @@
 
 <body>
 	<form>
-	what's your name?:<br><input id=user1 type="text" ><br>
-	<button class="Submit" onclick="welcomeuser1()" >Submit</button>
+	what's your name?:<br><input id=user1 type="text" onblur="welcomeuser1()" ><br>
 	</form>
-
-	<p id=currentPlayer hidden></p></div>
+	<p id=currentPlayer hidden></p>
 	<p id=p1></p>
-	<script type="text/javascript" src="welcomeuser.js"></script>
-	</script>
+    <script type="text/javascript" src="welcomuser1()"></script>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script>

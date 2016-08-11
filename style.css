@@ -1,0 +1,8 @@
+.Week_1{
+	text-align: center;
+	background-image: url("school.jpg");;
+	color: red;
+	border-color: red;
+	border-width: 20px;
+	font-weight: bold;
+}

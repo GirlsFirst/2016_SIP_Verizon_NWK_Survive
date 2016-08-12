@@ -26,3 +26,17 @@
     color: black; 
 
 }
+#back{
+	height:50px;
+	border-width:50px;
+	text-align:'left';
+}
+#next{
+	height:50px;
+	border-width:50px;
+	text-align:'right';
+}
+#girl{
+	height:500000px;
+	border-width:5000000px;
+}

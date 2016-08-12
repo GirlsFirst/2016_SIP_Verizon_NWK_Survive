@@ -5,3 +5,14 @@ body{
 	background-position: center;
 
 }
+
+#back{
+	height:50px;
+	border-width:50px;
+	text-align:'left';
+}
+#next{
+	height:70px;
+	border-width:70px;
+	text-align:'right';
+}

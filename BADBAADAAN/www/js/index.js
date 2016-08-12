@@ -7,3 +7,4 @@ function next(){
 	next += 1;
 	var words = document.getElementById("score");
 	words.innerHTML = "Likes: " + thumbs;
+}

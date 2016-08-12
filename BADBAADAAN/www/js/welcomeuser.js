@@ -62,7 +62,7 @@ function welcomeuser1(){
     z.innerHTML=y.value;
 }
 function buttonnext(){
-    document.getElementById("buttonappear").innerHTML=<button onclick="setTimeout(delay,3000)">Next>>></button>
+    document.getElementById("buttonappear").innerHTML="<button onclick='setTimeout(delay,3000)'>Next</button>"
 }
 // function delay(){
 //     document.body.innerHTML='';

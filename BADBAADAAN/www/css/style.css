@@ -1,6 +1,6 @@
-.Week_1{
+body{
 	text-align: center;
-	background-image: url("school.jpg");;
+	background-image: url("../images/school.jpg");
 	color: red;
 	border-color: red;
 	border-width: 20px;

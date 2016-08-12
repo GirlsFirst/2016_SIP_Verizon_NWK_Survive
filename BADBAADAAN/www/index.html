@@ -1,4 +1,4 @@
-<div class = "Week_1">
+
 <!DOCTYPE html>
 <!--
     Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
@@ -39,27 +39,22 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>Hello World</title>
 </head>
 
 <body>
 	<form>
-	what's your name?:<br><input id=user1 type="text" onblur="welcomeuser1()"><br>
+	What's your name?<br><input id=user1 type="text" onblur="welcomeuser1()"><br>
 	</form>
 
 	<p id=currentPlayer hidden></p></div>
 	<p id=p1></p>
-	<script type="text/javascript" src="welcomeuser.js"></script>
-	</script>
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script>
-        app.initialize();
-    </script>
-    <span><img id = "girl" src = "girls.jpg" style= "width: 100; height: 100;" onclick = "girl()"/></span>
-    <span><img id = "back" src = "left_arrow.jpg" style= "width: 50; height: 50;" onclick = "back()"/></span>
-    <span><img id = "next" src = "right_arrow.jpg" style= "width: 100; height: 100;" onclick = "next()"/></span>
+    <button onclick="setTimeOut()
+    <div class = "Week_1">
+    <span><img id = "girl" src = "images/girls.jpg" style= "width: 100; height: 100;" onclick = "girl()"/></span>
+    <span><img id = "back" src = "images/left_arrow.jpg" style= "width: 50; height: 50;" onclick = "back()"/></span>
+    <span><img id = "next" src = "images/right_arrow.jpg" style= "width: 100; height: 100;" onclick = "next()"/></span>
     <form action= "#" method= "post">
         <h1>Survey Questions</h1>
         <table>
@@ -79,11 +74,19 @@
                 </select>
                 </td>
             </table>
+    </div>
     </form>
+    <script type="text/javascript" src="js/welcomeuser.js"></script>
+    </script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+        app.initialize();
+    </script>
 </body>
 
 </html>
-</div>
+
 
 
 

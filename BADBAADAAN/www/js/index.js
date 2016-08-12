@@ -8,3 +8,6 @@ function next(){
 	var words = document.getElementById("score");
 	words.innerHTML = "Likes: " + thumbs;
 }
+function moveimage(){
+	document.getElementById("img1").style.left="500px"
+}

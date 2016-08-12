@@ -1,9 +1,16 @@
 #start{
 	font-family: 'Lalezar', cursive;
 }
+
 #logo{
 	width: 300px;
 	height:400px;
+}
+#game{
+	color: purple;
+}
+#survey{
+	color: purple;
 }
 #Week1{
 	text-align: center;

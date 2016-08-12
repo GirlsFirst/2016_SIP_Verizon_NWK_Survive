@@ -1,5 +1,5 @@
-<div class="align">
-<!DOCTYPE html>
+<div id = "Week_1">
+ <!DOCTYPE html>
 <!--
     Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
 
@@ -39,16 +39,28 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
-    <link rel="stylesheet" type="text/css" href="css/first_page_background.css" />
+    <link rel="stylesheet" type="text/css" href="css/outside_school.css" />
     <title>Hello World</title>
 </head>
 <body>
-    <h1 id= "start">Welcome to BadBaadaan-Survive!</h1>
-    <span><img id = "logo" src = "images/logo.jpg"></span>
-    <div>
-    <button id="survey" onclick="location.href='survey.html'">Take me to Survey</button>
-    <button id="game" onclick="location.href='outside_school.html'">Take me to the Game!</button>
-    </div>
+
+    <img id = "back" src = "images/left_arrow.jpg"  onclick = "location.href='index.html'">
+    <div id="img1" style="position:absolute;left:200px"><img id = "girl" src = "images/girls.jpg" style= "width: 100; height: 100;" onclick = "girl()"/></div>
+    
+    <img src="images/right_arrow.jpg" id="next" type="button" value='move' onclick="location.href='inside_school.html'">
+
+     
+     
+    <!-- <span><img id = "back" src = "images/left_arrow.jpg" onclick = "back()"/></span>
+
+    <span><img id = "girl" src = "images/girls.jpg" style= "width: 100; height: 100;" onclick = "girl()"/></span>
+    <div id="img1" style="position:absolute;left:200px"><img id = "girl" src = "images/girls.jpg" style= "width: 100; height: 100;" onclick = "girl()"/></div>
+    <img src="images/right_arrow.jpg" id="next" type="button" value='move' onclick="moveimage()"/> -->
+    <!-- <span><img id = "next" src = "images/right_arrow.jpg" onclick = "next()"/></span> -->
+    <script type="text/javascript" src="js/welcomeuser.js"></script>
+    </script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
 </div>

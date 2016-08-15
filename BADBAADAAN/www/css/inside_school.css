@@ -1,9 +1,7 @@
-body{
+.container-fluid{
 	background-image: url("../images/hallway.jpg");
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-
+	background-size: cover;
 }
 
 #back{
@@ -12,7 +10,64 @@ body{
 	text-align:'left';
 }
 #next{
-	height:70px;
-	border-width:70px;
+	height:50px;
+	border-width:50px;
 	text-align:'right';
+}
+
+.button1{
+	height:100%;
+	text-align:left;
+	vertical-align: middle;
+	position:absolute;
+	bottom:50;
+
+}
+
+.button2{
+	height:100%;
+	text-align:right;
+	position:absolute;
+	bottom:50px;
+}
+
+.challenge{
+	position: relative; 
+	font-family: 'Oswald', sans-serif;
+	font-size:2em;
+	height:100%;
+	text-align: left;
+	vertical-align: bottom;
+
+}
+
+.girl{
+	
+	height:100%;
+	position: absolute;
+	left:25px;
+}
+
+.glyphicon-arrow-left, .glyphicon-arrow-right {
+	color: magenta;
+	font-size: 100px;
+	vertical-align: middle;
+}
+.vertical-center{
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+	min-height: 100vh; /* These two lines are counted as one :-)       */
+
+	display: flex;
+	align-items: center;
+}
+
+.form-bg{
+	opacity: 0.5;
+}
+.vertical-bottom{
+		min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+	min-height: 100vh; /* These two lines are counted as one :-)       */
+
+	display: flex;
+	align-items: bottom;
 }

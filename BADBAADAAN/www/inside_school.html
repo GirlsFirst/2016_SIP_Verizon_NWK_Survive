@@ -79,12 +79,10 @@
             <div class="challenge">
             Today is your first soccer game where you are starting, but you got detention because you were late for class!! What are you going to do?
             </div>
-            <form class="input-group input-group-addon form-bg">
-            <input type="radio" name="ways" id="talk" value="check">Try talking yourself out of detention<br>
-            <input type="radio" name="ways" id="ditch" value="uncheck">Ditch detention and just go to the soccer game<br>
-            <input type="radio" name="ways" id="go" value="oncheck">Go to detention and miss your game<br>
-            <button type="btn" class="" onclick="options()">Submit</button>
-            </form>
+            <form id="challengesform" action="" method="post" class="input-group input-group-addon form-bg">
+            <input type="radio" name="ways" id="talk" value="talking" onclick="radioOptions(this.id)"/>Try talking yourself out of detention<br>
+            <input type="radio" name="ways" id="ditch" value="leave" onclick="radioOptions(this.id)"/>Ditch detention and just go to the soccer game<br>
+            <input type="radio" name="ways" id="go" value="miss" onclick="radioOptions(this.id)" />Go to detention and miss your game<br>
             </div>
         </div>
         <div class="col-md-1 vertical-center">

@@ -24,17 +24,15 @@ function moveimage(){
 
 // }
 function radioOptions(id){
-	
+	var options=document.getElementById(id);
 	if (id==="talk"){
-
-		location.href='math_classroom.html';
+		location.href='math_classroom1.html';
 	}
 	else if(id==="ditch"){
 		location.href='ditch.html'
-		
 	} 
-	else{
-		location.href='math_classroom.html'
+	else if(id==="go"){
+		location.href='math_classroom2.html';
 	}
 	// var choices=['outside_school.html','math_classroom.html','starting_page.html']
 	// var formoptions = document.getElementById("challengesform");
@@ -46,5 +44,16 @@ function radioOptions(id){
 	// 	}
 
 	
+
+}
+
+function detentionOptions(id){
+	var choice=document.getElementById(id);
+	if (id==="talk1"){
+		location.href="survey.html"
+	}
+	else{
+		location.href="outside_school2.html"
+	}
 
 }

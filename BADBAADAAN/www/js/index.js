@@ -30,7 +30,7 @@ function radioOptions(id){
 		location.href='math_classroom.html';
 	}
 	else if(id==="ditch"){
-		location.href='outside_school.html'
+		location.href='ditch.html'
 		
 	} 
 	else{

@@ -27,7 +27,7 @@ function radioOptions(id){
 	
 	if (id==="talk"){
 
-		location.href='math_classroom.html';
+		location.href='math_classroom1.html';
 	}
 	else if(id==="ditch"){
 		location.href='ditch.html'

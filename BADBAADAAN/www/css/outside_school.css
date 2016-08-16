@@ -71,3 +71,8 @@
 	display: flex;
 	align-items: bottom;
 }
+#level1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	vertical-align: top;
+}

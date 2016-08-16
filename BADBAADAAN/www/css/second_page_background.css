@@ -1,3 +1,7 @@
 body{
 	background-image: url("../images/sahara.jpg");
+	text-align: center;
+}
+.align{
+	text-align: center;
 }

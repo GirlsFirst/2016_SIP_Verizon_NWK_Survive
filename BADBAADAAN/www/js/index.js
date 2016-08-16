@@ -50,7 +50,7 @@ function radioOptions(id){
 function detentionOptions(id){
 	var choice=document.getElementById(id);
 	if (id==="talk1"){
-		location.href="survey.html"
+		location.href="soccer2.html"
 	}
 	else{
 		location.href="outside_school2.html"

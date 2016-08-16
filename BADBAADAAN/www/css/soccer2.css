@@ -1,5 +1,5 @@
 .container-fluid{
-	background-image: url("../images/math.jpg");
+	background-image: url("../images/soccer.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -33,12 +33,11 @@
 
 .challenge{
 	position: relative; 
-	font-family: 'Oswald', sans-serif, bold;
+	font-family: 'Oswald', sans-serif;
 	font-size:2em;
 	height:100%;
 	text-align: left;
 	vertical-align: bottom;
-	color: orange;
 
 }
 
@@ -64,7 +63,6 @@
 
 .form-bg{
 	opacity: 0.5;
-	color:orange;
 }
 .vertical-bottom{
 		min-height: 100%;  /* Fallback for browsers do NOT support vh unit */

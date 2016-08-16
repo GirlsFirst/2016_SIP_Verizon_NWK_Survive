@@ -1,6 +1,8 @@
 body{
 	background-image: url("../images/scenery.jpg");
+	width:100%;
 }
 .align{
 	text-align: center;
+	width:100%;
 }

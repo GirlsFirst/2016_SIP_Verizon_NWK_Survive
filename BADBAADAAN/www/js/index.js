@@ -26,12 +26,10 @@ function moveimage(){
 function radioOptions(id){
 	var options=document.getElementById(id);
 	if (id==="talk"){
-
 		location.href='math_classroom1.html';
 	}
 	else if(id==="ditch"){
-		location.href='outside_school.html';
-		
+		location.href='ditch.html'
 	} 
 	else if(id==="go"){
 		location.href='math_classroom2.html';

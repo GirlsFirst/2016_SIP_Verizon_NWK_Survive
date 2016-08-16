@@ -1,0 +1,21 @@
+body{
+	background-image: url("../images/index.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.align{
+	text-align: center;
+}
+#title{
+	font-family: 'Lalezar', cursive;
+	color: black;
+	font-size: 50px;
+}
+/*#game {
+    position: absolute;
+    top: 50%;
+}
+#survey{
+	position: absolute;
+    top: 50%;
+}*/

@@ -64,30 +64,40 @@
 <body>
 
 
-    <div class="container-fluid">
+    <div class="container">
+    <div>
     <div class="row">
-        <div class="col-md-1 vertical-center" >
+        <div class="col-md-1 vertical-center col-xs-1" >
             <div class="glyphicon glyphicon-arrow-left" aria-hidden="true" onclick="location.href='outside_school.html'">
             </div>
+
         </div>
-        <div class="col-md-2" ><img id = "girl" src = "images/girls.jpg" onclick = "girl()"/></div>
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-md-2 col-xs-4" ><img id = "girl" src = "images/girls.jpg" onclick = "girl()"/>
+        
+        </div>
         
         
-        
-        <div class="col-md-8 vertical-center ">
-            <div>
+      
+
+        <div class="col-md-8 vertical-center col-xs-12">
+            <div id="choices">
             <div class="challenge">
             Today a college scout is coming to your soccer game, but you have detention because you were late for class!! What are you going to do?
             </div>
-            <form id="challengesform" action="" method="post" class="input-group input-group-addon form-bg">
+            <div id="questions">
+            <form id="challengesform" action="" method="post" class="form-bg">
             <input type="radio" name="ways" id="talk" value="talking" onclick="radioOptions(this.id)"/>Try talking yourself out of detention<br>
             <input type="radio" name="ways" id="ditch" value="leave" onclick="radioOptions(this.id)"/>Ditch detention and just go to the soccer game<br>
             <input type="radio" name="ways" id="go" value="miss" onclick="radioOptions(this.id)" />Go to detention and miss your game<br>
             </div>
+            </form>
+            </div>
         </div>
-        <div class="col-md-1 vertical-center">
-            <span class= "glyphicon glyphicon-arrow-right" onclick="location.href='learn_more.html'">
+        <div class="col-md-1 vertical-center col-xs-1">
+            <span class= "glyphicon glyphicon-arrow-right" onclick="location.href='learn_more.html'"></span>
         </div>
+    </div>
     </div>
     </div>
 

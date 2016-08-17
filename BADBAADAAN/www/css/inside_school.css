@@ -45,7 +45,8 @@
 	
 	height:100%;
 	position: absolute;
-	left:25px;
+	left:0px;
+	padding:10px;
 }
 
 .glyphicon-arrow-left, .glyphicon-arrow-right {
@@ -76,6 +77,8 @@
 	width:100%;
 }
 #choices{
+	margin-left: 2em;
+	padding:10px;
 	width:100%;
 
 }
